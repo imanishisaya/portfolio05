@@ -1,0 +1,291 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body {
+    text-size-adjust: 100%;
+    overflow-x: hidden;
+    color: rgb(0, 0, 0);
+    font: 300 14px / 1.9 "Noto Sans JP",Arial, Verdana, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+}
+
+.top-wrapper {
+  width: 100%;
+  margin:0 auto;
+}
+
+header {
+  background-color:#695956;
+  height: 100px;
+  width: 100%;
+}
+
+header .conteiner {
+  display: flex;
+}
+
+.logo {
+  height: 50%;
+  width: 50%;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.header-right{
+  margin-left: auto;
+  padding-right:30px;
+  padding-top: 35px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-nav a {
+  color:white;
+  font-size: 18px;
+  letter-spacing: 0.2em;
+}
+
+li a:hover {
+  opacity:0.5;
+  transition: 0.2s;
+}
+
+li {
+  float: left;
+  list-style: none;
+  padding-right: 20px;
+}
+
+.top-wrapper {
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+
+.top-wrapper img{
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.massage {
+  text-align: center;
+  padding-top: 90px;
+  font-size: 1.5rem;
+  line-height: 50px;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  top: 25%;
+  left: 68%;
+  color:#695956;
+}
+
+.top-btn {
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: white;
+  top: 70%;
+  left: 71%;
+}
+ .top-btn a {
+   display: block;
+   color: #8f6552;
+   text-align: center;
+   line-height: 45px;
+   font-size: 18px;
+   letter-spacing: 0.2em;
+ }
+
+.photo-wrapper {
+  width: 100%;
+  height: 700px;
+  background-color: #D9D4CB;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.photo-wrapper img {
+  width: 30%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.SAMPLE {
+  display:inline-block;
+  margin: 0 auto;
+  padding-left: 10px;
+}
+
+.photo-wrapper p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 60px;
+  letter-spacing: 0.2em;
+  color :#695956;
+}
+
+.SNS-wrapper {
+  width: 100%;
+  height: 200px;
+  padding-top: 50px;
+  background-color: #c9c3bb;
+  text-align: center;
+}
+
+.sns-contents {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+
+.SNS-wrapper a {
+  display: block;
+  text-align: center;
+  color: black;
+}
+
+.sns {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.check {
+  font-weight: normal;
+}
+
+.company-wrapper {
+  width: 100%;
+  height: 400px;
+  background-color: #D9D4CB;
+}
+
+.company-contents {
+  display: flex;
+}
+
+.ggmap {
+  width: 60%;
+  position: relative;
+  padding-bottom: 25%;
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.address {
+  padding-left: 70px;
+  padding-top: 20px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  line-height: 48px;
+}
